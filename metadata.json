@@ -1,0 +1,5 @@
+{
+  "name": "AVI's Mario Game",
+  "description": "A lightweight 2D side-scrolling mini-game inspired by retro platformers, built with React and Tailwind CSS.",
+  "requestFramePermissions": []
+}
