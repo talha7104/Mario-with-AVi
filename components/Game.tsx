@@ -148,7 +148,7 @@ const Game: React.FC<GameProps> = ({ speedMultiplier }) => {
 
   const [playerState, setPlayerState] = useState<PlayerState>(getInitialPlayerState());
   const [gameStatus, setGameStatus] = useState<GameStatus>('ready');
-  const [obstacles, setObstacles] = useState<(ObstacleType | DynamicObstacleType)[]>(getInitialObstacles());
+  const [obstacles, setObstacles] = useState(getInitialObstacles);
   
   const keys = useKeyboardControls();
   const gameLoopRef = useRef<number>();
